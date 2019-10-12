@@ -4,17 +4,17 @@
   "description": "A backend for a course application (FSO2019)",
   "main": "server.js",
   "scripts": {
-    "start": "node.js server.js",
+    "start": "node server.js",
     "start:server": "nodemon -L server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Berkay Senkoylu",
   "license": "ISC",
   "devDependencies": {
-    "morgan": "^1.9.1",
     "nodemon": "^1.19.3"
   },
   "dependencies": {
+    "morgan": "^1.9.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
   },

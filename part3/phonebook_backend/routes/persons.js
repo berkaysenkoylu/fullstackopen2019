@@ -16,4 +16,7 @@ router.post('', personsController.addNewPerson);
 // Delete the person with a given id
 router.delete('/:id', personsController.deleteOnePerson);
 
+// Edit the person with a given id
+router.put('/:id', personsController.editPerson);
+
 module.exports = router;

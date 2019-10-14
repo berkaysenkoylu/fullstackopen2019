@@ -7,11 +7,13 @@
     "start": "node server.js",
     "start:server": "nodemon -L server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "rm -rf build && cd ../phonebook && npm run build --prod && cp -r build ../phonebook_backend/"
+    "build:ui": "rm -rf build && cd ../phonebook && npm run build --prod && cp -r build ../phonebook_backend/",
+    "lint": "eslint ."
   },
   "author": "Berkay SENKOYLU",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^6.5.1",
     "nodemon": "^1.19.3"
   },
   "dependencies": {

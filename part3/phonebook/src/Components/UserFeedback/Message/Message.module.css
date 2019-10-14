@@ -1,0 +1,19 @@
+.Message {
+    background: #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+.SuccessMessage {
+    color: green;
+    border: 3px solid green;
+    
+}
+
+.ErrorMessage {
+    color: red;
+    border: 3px solid red;
+}

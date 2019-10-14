@@ -10,8 +10,8 @@ const info = require('./routes/info');
 
 const app = express();
 
-// Database connection (TODO)
-mongoose.connect(process.env.URL, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+// Database connection
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
     console.log("Database connection is successful");
 }).catch(() => {
     console.log("Database connection failed");

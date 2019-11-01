@@ -1,0 +1,45 @@
+.Blog {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    padding: 2rem;
+    margin: 1rem 0;
+    box-shadow: 0.25rem 1rem 1rem rgba(0, 0, 0, 0.15);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.BlogHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.BlogContent {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.BlogContentReveal {
+    visibility: unset;
+    opacity: 1;
+    height: 100%;
+}
+
+.BlogButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

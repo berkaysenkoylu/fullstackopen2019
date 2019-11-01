@@ -1,3 +1,9 @@
+NB:
+User credentials:
+Usernames: Frobella, Jonny, John
+Password: 123456
+
+
 5.11: Blog list frontend
 Define PropTypes for one of the components of your application.
 

@@ -1,0 +1,14 @@
+.UserBlogList {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    list-style-type: square;
+    width: 50%;
+}
+
+.UserInfo {
+    font-size: 1.6rem;
+}
+
+.UserInfo  h2 {
+    text-align: center;
+}

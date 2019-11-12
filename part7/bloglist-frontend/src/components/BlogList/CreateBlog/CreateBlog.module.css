@@ -1,0 +1,15 @@
+.CreateBlog {
+    width: 50%;
+    box-shadow: 1rem 2rem 2rem rgba(0, 0, 0, 0.15);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.CreateBlogButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}

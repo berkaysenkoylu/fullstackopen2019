@@ -1,0 +1,38 @@
+.SideDrawerToggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.SideDrawerToggle span {
+    height: 3px;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.SideDrawerToggle::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 80%;
+    top: 20%;
+    transform: translateY(-20%);
+}
+
+.SideDrawerToggle::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 80%;
+    top: 80%;
+    transform: translateY(-80%);
+}

@@ -1,0 +1,100 @@
+.NavigationItem {
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+.NavigationItem > a {
+    box-sizing: content-box;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 1rem 2rem;
+    z-index: 100;
+    border-bottom: 3px solid #0044ff;
+}
+
+.Navigation > a:link {
+    border-bottom: 3px solid #0044ff;
+}
+
+.NavigationItem > a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.5rem;
+    transform: scaleX(0);
+    background-color: #00268d;
+    transform-origin: right;
+    transition: transform 0.2s ease-out;
+    z-index: -100;
+}
+
+.NavigationItem > a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.NavigationItem:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.NavigationItemActive {
+    background-color: #00268d;
+    border-bottom: 3px solid #ccc !important;
+}
+
+
+/* .NavigationListItem {
+    list-style: none;
+    color: #fff;
+}
+
+.NavigationLink {
+    position: relative;
+    display: block;
+    color: #fff;
+    background-color: #0044ff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.NavigationLink > a:visited, a:link {
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.NavigationLinkActive {
+    background-color: #00268d;
+    border-bottom: 3px solid #ccc;
+}
+
+.NavigationLink::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00268d;
+    border-bottom: 3px solid #00268d;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-out;
+    z-index: -100;
+}
+
+.NavigationLink:hover::before {
+    transform-origin: left;
+    width: 100%;
+    transform: scaleX(1);
+}
+
+.NavigationListItem:not(:last-child) {
+    margin-right: 2rem;
+} */

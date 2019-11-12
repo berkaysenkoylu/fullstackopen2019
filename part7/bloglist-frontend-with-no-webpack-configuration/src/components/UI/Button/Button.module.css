@@ -1,0 +1,63 @@
+.Button {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem 0 1rem 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.Button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.Button:active {
+    transform: translateY(-1px);
+    box-shadow: 0.25rem 0.5rem 0.75rem rgba(0, 0, 0, 0.15);
+}
+
+/* Different Colors */
+.ButtonPrimary {
+    color: #ffffff;
+    background-color: #0044ff;
+}
+
+.ButtonDanger {
+    color: #ffffff;
+    background-color: #a00b00;
+}
+
+.ButtonSuccess {
+    color: #ffffff;
+    background-color: #00880b;
+}
+
+/* Different Sizes */
+.ButtonSmall {
+    padding: 1rem 2rem;
+}
+
+.ButtonMedium {
+    padding: 2rem 4rem;
+}
+
+.ButtonLarge {
+    padding: 3rem 6rem;
+}
+
+/* Alignment */
+.ButtonCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ButtonNoMargin {
+    margin: 0;
+}

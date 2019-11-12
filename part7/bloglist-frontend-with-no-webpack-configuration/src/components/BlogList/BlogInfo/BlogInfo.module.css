@@ -1,0 +1,61 @@
+.BlogInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 75%;
+    box-shadow: 0.75rem 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.BlogInfoContainer h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.BlogInfoContent {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.CommentInputSection  > button {
+    margin: 0;
+}
+
+.CommentInputSection {
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.BlogInfoComments {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.BlogInfoComments > ul {
+    margin: 1rem;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 1rem;
+}
+
+.ButtonContainer > button {
+    margin: 0;
+}
+
+.ButtonContainer > *:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.ButtonContainer > *:last-child {
+    margin-left: auto;
+}

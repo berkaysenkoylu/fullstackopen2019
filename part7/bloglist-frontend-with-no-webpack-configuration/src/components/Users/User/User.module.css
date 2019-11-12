@@ -1,0 +1,5 @@
+.TableRow:nth-child(even) {
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #ccc;
+}

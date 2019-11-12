@@ -1,0 +1,14 @@
+.LoggedInUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.Username {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1rem 0.5rem;
+}

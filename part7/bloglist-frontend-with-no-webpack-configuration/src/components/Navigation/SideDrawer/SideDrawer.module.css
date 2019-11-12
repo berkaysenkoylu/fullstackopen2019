@@ -1,0 +1,59 @@
+.SideDrawer {
+    font-family: inherit;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20rem;
+    background-color: #eee;
+    z-index: 1000;
+    transition: transform 0.3s ease-out;
+    text-align: center;
+}
+
+
+.SideDrawer > *:first-child {
+    color: #001f75;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid rgba(0, 31, 117, 0.5);
+    height: calc(5.5rem - 1px);
+    width: 90%;
+}
+
+.SideDrawer a {
+    color: #0044ff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.75rem;
+}
+
+.CopyrightText {
+    color: #001f75;
+    font-weight: 500;
+    font-size: 1.6rem;
+    border-top: 1px solid rgba(0, 31, 117, 0.5);
+    margin-top: auto;
+    width: 90%;
+}
+
+
+@media (min-width: 60rem) {
+    .SideDrawer{
+        display: none;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Closed {
+    transform: translateX(100%);
+}

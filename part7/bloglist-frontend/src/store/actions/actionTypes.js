@@ -1,0 +1,19 @@
+// NOTIFICATIONS
+export const SET_MESSAGE = 'SET_MESSAGE';
+export const RESET_MESSAGE = 'RESET_MESSAGE';
+
+// BLOG LIST
+export const GET_BLOGLIST = 'GET_BLOGLIST';
+export const CREATE_NEW_BLOG = 'CREATE_NEW_BLOG';
+export const LIKE_BLOGPOST = 'LIKE_BLOGPOST';
+export const COMMENT_BLOGPOST = 'COMMENT_BLOGPOST';
+export const DELETE_BLOGPOST = 'DELETE_BLOGPOST';
+
+// AUTHENTICATION
+export const LOGIN_START = 'LOGIN_START';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+
+// USERS
+export const FETCH_USERS = 'FETCH_USERS';

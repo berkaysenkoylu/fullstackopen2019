@@ -1,0 +1,22 @@
+.Notification {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 3px solid #000;
+    border-radius: 1rem;
+    background-color: #eee;
+    width: 75%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.NotificationSuccess {
+    border: 3px solid #319b00;
+    color: #319b00;
+}
+
+.NotificationDanger {
+    border: 3px solid #910404;
+    color: #910404;
+}
